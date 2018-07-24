@@ -1,0 +1,36 @@
+{
+  "name": "lapi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "iview": "^2.14.3",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuedraggable": "^2.16.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.3",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.3",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.3",
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "@vue/test-utils": "^1.0.0-beta.16",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "babel-polyfill": "^6.26.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
