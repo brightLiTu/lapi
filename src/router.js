@@ -4,17 +4,17 @@ import Router from "vue-router";
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   routes: [
     {
       path: "/",
       name: "home",
-      component: () => import('./views/Home.vue')
+      component: () => import("./views/Home.vue")
     },
     {
-      path: "/apitest",
-      name: "ApiTest",
-      component: () => import('./views/ApiTest.vue')
+      path: "/TestApi",
+      name: "TestApi",
+      component: () => import("./views/TestApi.vue")
     }
   ]
 });

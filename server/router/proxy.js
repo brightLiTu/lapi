@@ -5,6 +5,7 @@ var proxy = httpProxy.createProxyServer({});
 
 var router = new express.Router();
 router.use("/", function(req, res) {
+  console.log('proxy');
   var proxyUrl = req.headers["x-layi-proxy-url"];
   var proxyPath = req.headers["x-layi-proxy-path"];
   req.headers.referer = proxyUrl;

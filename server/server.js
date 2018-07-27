@@ -19,6 +19,6 @@ app.use(
 // 静态目录
 app.use(express.static("www"));
 
-app.listen(8800, function() {
-  console.log("监听8800端口");
+app.listen(8813, function() {
+  console.log("监听8813端口");
 });
